@@ -15,7 +15,7 @@ namespace MarsFramework.Pages
         #region  Initialize Web Elements
 
         // Click on the "Share Skill" button
-        private IWebElement clickShareSkills => GlobalDefinitions.driver.FindElement(By.LinkText("Share Skill"));
+        private IWebElement clickShareSkills => GlobalDefinitions.driver.FindElement(By.XPath(".//*[@id='account-profile-section']/div/section/div[1]/div[2]/a"));
 
         //Title
         private IWebElement AddTitle => GlobalDefinitions.driver.FindElement(By.XPath(".//*[@id='service-listing-section']/div[2]/div/form/div[1]/div/div[2]/div[1]/div[1]/input"));

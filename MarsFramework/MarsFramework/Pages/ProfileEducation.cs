@@ -1,7 +1,6 @@
 ﻿using System;
 using OpenQA.Selenium;
 using MarsFramework.Global;
-//using static MarsCoreFramework.Global.CommonMethods;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
